@@ -28,6 +28,12 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    color: #000;
+    font-size: 50px;
+	text-align: center;
+}
+
 
 /* Navigation */
 nav {
@@ -171,4 +177,52 @@ footer ul li a {
 
 footer ul li a:hover {
     color: #5E7E69;
+}
+
+.container-works {
+	max-width: 1200px;
+	margin: auto;
+	overflow: auto;
+	
+}
+
+.gallery {
+	margin: 50px;
+	border: 20px solid #552928;
+	float: left;
+	width: 600px;
+}
+
+.gallery img {
+	width: 600px;
+	height: auto;
+}
+
+.desc { 	
+	padding: 10px;
+	text-align: center;
+}
+
+.container-works {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of items to the next row */
+    justify-content: center; /* Centers items horizontally */
+    gap: 20px; /* Adds spacing between the gallery boxes */
+}
+
+.gallery {
+    margin: 10px; /* Adjust margin for better alignment */
+    border: 20px solid #552928;
+    width: 300px; /* Reduce the width for better scaling */
+}
+
+.gallery img {
+    width: 100%; /* Ensures the image fits within the box */
+    height: auto;
+}
+
+.fname {
+	text-size: 40px;
 }
