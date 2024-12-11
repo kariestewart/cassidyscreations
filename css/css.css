@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-    color: #000;
+    color: #C2632D;
     font-size: 50px;
 	text-align: center;
 }
@@ -48,13 +48,13 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px;
+    gap: 300px;
 }
 
 nav ul li a {
     color: #FCEEE5;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 30px;
 }
 
 nav ul li a:hover {
@@ -122,8 +122,16 @@ main {
     transition: background-color 0.3s ease;
 }
 
-.cta-button:hover {
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #FFFFFF;
     background-color: #552928;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 /* Image Box Styling */
@@ -179,28 +187,11 @@ footer ul li a:hover {
     color: #5E7E69;
 }
 
-.container-works {
-	max-width: 1200px;
-	margin: auto;
-	overflow: auto;
-	
-}
-
-.gallery {
-	margin: 50px;
-	border: 20px solid #552928;
-	float: left;
-	width: 600px;
-}
-
-.gallery img {
-	width: 600px;
-	height: auto;
-}
 
 .desc { 	
 	padding: 10px;
 	text-align: center;
+	font-size: 25px;
 }
 
 .container-works {
@@ -216,6 +207,7 @@ footer ul li a:hover {
     margin: 10px; /* Adjust margin for better alignment */
     border: 20px solid #552928;
     width: 300px; /* Reduce the width for better scaling */
+    border-radius: 8px;
 }
 
 .gallery img {
@@ -223,6 +215,29 @@ footer ul li a:hover {
     height: auto;
 }
 
-.fname {
-	text-size: 40px;
+.contact-container {
+    font-size: 20px;
+    text-align: center;
+    color: #C2632D;
 }
+
+
+main ul, contact-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+main ul li a, contact-container ul {
+    color: #552928;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+main ul li a:hover {
+    color: #5E7E69;
+}
+
